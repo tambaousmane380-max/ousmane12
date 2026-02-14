@@ -1,0 +1,39 @@
+div{
+ text-align: center;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+ padding-bottom: 25px;
+ background-color: aqua;
+
+
+}
+img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 25px;
+}
+p{
+    color: hsl(0, 92%, 52%);
+}
+form{
+    color: rgb(241, 8, 8);
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+iframe{
+    width: 400px;
+    height:400px;
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+}

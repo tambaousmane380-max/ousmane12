@@ -1,0 +1,9 @@
+div{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    height: 300PX;
+    align-items: flex-end;
+    background-color: red;
+}
