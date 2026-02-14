@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0px;
+     background-color: antiquewhite;        
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    background-image: url(image/istockphoto-1174414266-612x612.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+
+ul{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    list-style: none;
+
+
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: #00796b;
+    padding: 5px;
+    border-radius: 10px;
+}
+li a:hover{
+    background-color: black;
+    color: gold;
+}
+/*fin header*/
+
+/*debut a propos*/
+ section h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.container img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    align-items: center;
+}
+.nom{
+    font-size: 30px;
+}
+.apropos{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+/*debut competence*/
+.competence{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.item{ 
+    
+    display: flex;
+    margin-bottom: 10px;
+}
+.max{
+    width: 200px;
+    background-color: rgb(81, 87, 81);
+    height: 20px;
+    border-radius: 10px;
+}
+.valeur{
+    width: 95%;
+    height: 20px;
+    background-color: rgb(84, 176, 221);
+    border-radius: 10px;
+}
+
+.iteme{ 
+    display: flex;
+    margin-bottom: 10px;
+}
+.max1{
+    width: 200px;
+    height: 20px;
+    background-color:  rgb(19, 152, 19);
+    border-radius: 10px;
+}
+.valeur1{
+    width: 60%;
+    height: 20px;
+    background-color: rgb(231, 82, 199);
+    border-radius: 10px;
+}
+.itemer{ 
+    display: flex;
+    margin-bottom: 10px;
+}
+.max2{
+    width: 200px;
+    background-color:  rgb(143, 25, 76);
+    height: 20px;
+    border-radius: 10px;
+}
+.valeur2{
+    width: 70%;
+    height: 20px;
+    background-color: #011109;
+    border-radius: 10px;
+}
+
+
+.lam{ 
+    display: flex;
+    margin-bottom: 10px;
+}
+.non{
+    width: 200px;
+    background-color:  rgb(199, 184, 21);
+    height: 20px;
+    border-radius: 10px;
+}
+.valeur3{
+    width: 45%;
+    height: 20px;
+    background-color: #1189;
+    border-radius: 10px;
+}
+.tamp{ 
+    display: flex;
+    margin-bottom: 10px;
+}
+.heur{
+    width: 200px;
+    background-color:  #900;
+    height: 20px;
+    border-radius: 10px;
+}
+.valeur4{
+    width: 55%;
+    height: 20px;
+    background-color: #454545;
+    border-radius: 10px;
+}
+
+.lamm{ 
+    display: flex;
+    margin-bottom: 10px;
+}
+.pour{
+    width: 200px;
+    background-color:  rgb(67, 17, 141);
+    height: 20px;
+    border-radius: 10px;
+}
+.valeur5{
+    width: 85%;
+    height: 20px;
+    background-color: #6890;
+    border-radius: 10px;
+}
+.face img{
+    width: 50px;
+    height: 50px;
+}
+.what img{
+  width: 50px;
+}
+.insta img{
+  width: 50px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    align-items: center;
+    text-align: center;
+    
+}
+form{
+    border: 5%;
+    color: #00796b;
+}
+
+h1{
+    text-align: center;
+}
+.service{
+    align-items: center;
+    justify-content: center;
+    
+}
+.login{
+    display: flex;
+}
+footer{
+    background-color: #00796b;
+    tab-size: 30px;
+    text-align: center;
+}
+.pirlo{
+    display: flex;
+    flex-direction: column;
+
+}
+.pirlo input{
+    border-radius: 10px;
+    border: 2px solid #00796b;
+}
+.tamba textarea{
+  border-radius: 10px;
+
+}
+.tamba label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #00796b;
+   
+}
+.tamba textarea{
+     border: 2px solid #00796b;
+}
+.login button{
+    text-align: center;
+    color: rgb(23, 225, 23);
+}
+.login{
+    text-align: center;
+}
